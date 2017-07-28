@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        .content{
+        .content {
             margin: 30px auto;
             border: 1px solid black;
             padding: 0;
@@ -15,6 +16,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="content">
         <svg width='600' height='400'>
@@ -23,10 +25,69 @@
             <text x='284' y='25' text-anchor='middle' style="font-size:20px;text-transform:uppercase;fill:#E0E0E3;">
                 <tspan>不同城市的月平均气温</tspan>
             </text>
+            <text x='284' y='45' text-anchor='middle' style="font-size:14px;text-transform:uppercase;fill:#E0E0E3;">
+                <tspan>本地的数据来自胡说八道</tspan>
+            </text>
             <!-- title End -->
 
-            
+            <!-- Introduction Start -->
+            <g transform="translate(540,200)">
+                <g transform="translate(8,3)">
+                    <text style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">城市名</text>
+                </g>
+                <g transform="translate(8,17)">
+                    <text style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">城市名</text>
+                </g>
+                <g transform="translate(8,31)">
+                    <text style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">城市名</text>
+                </g>
+                <g transform="translate(8,45)">
+                    <text style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">城市名</text>
+                </g>
+            </g>
+            <!-- Introduction End -->
+
+            <!-- 横线单位 Start -->
+            <g transform="translate(70,45)">
+                <text x='0' y='65' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">4</text>
+                <text x='0' y='125' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">3</text>
+                <text x='0' y='185' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">2</text>
+                <text x='0' y='245' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">1</text>
+                <text x='0' y='305' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">0</text>
+            </g>
+            <!-- 横线单位 End -->
+
+            <!-- 表格区域 Start -->
+            <g transform="translate(80,45)">
+                <!-- 横线 Start -->
+                <g>
+                    <line x1='0' x2='400' y1='60' y2='60' stroke='#F38181'></line>
+                    <line x1='0' x2='400' y1='120' y2='120' stroke='#F38181'></line>
+                    <line x1='0' x2='400' y1='180' y2='180' stroke='#F38181'></line>
+                    <line x1='0' x2='400' y1='240' y2='240' stroke='#F38181'></line>
+                    <line x1='0' x2='400' y1='300' y2='300' stroke='#F38181'></line>
+                </g>
+                <!-- 横线 End -->
+            </g>
+            <!-- 横线 End -->
+
+            <!-- 竖线单位 Start -->
+            <g transform="translate(70,360)">
+                <text x='50' y='0' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">1</text>
+                <text x='100' y='0' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">2</text>
+                <text x='150' y='0' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">3</text>
+                <text x='200' y='0' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">4</text>
+                <text x='250' y='0' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">5</text>
+                <text x='300' y='0' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">6</text>
+                <text x='350' y='0' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">7</text>
+                <text x='400' y='0' style="color:#E0E0E3;font-size:12px;font-weight:bold;cursor:pointer;fill:#E0E0E3;">8</text>
+            </g>
+            <!-- 竖线单位 End -->
+
+
+
         </svg>
     </div>
 </body>
+
 </html>
