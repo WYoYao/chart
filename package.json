@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "highcharts": "^v5.0.12"
+  },
+  "bin": {
+    "hello": "./btest.js"
   }
 }
