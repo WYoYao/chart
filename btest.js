@@ -19,10 +19,14 @@ attached = function(attr, value, bool) {
 
         // 当传入属性不为空的时
         eval(attr) = value;
+
+
     } else {
 
         // 当传入属性未空
         var arr = attr.split('.');
+
+        
 
     }
 }

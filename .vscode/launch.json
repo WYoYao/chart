@@ -7,7 +7,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/btest.js"
+            "program": "${workspaceRoot}/exemple/step1/index.js"
         },
         {
             "type": "node",
